@@ -1,0 +1,40 @@
+{
+  "name": "js-build",
+  "version": "1.0.0",
+  "description": "A build for JS with webpack bundle, React.js, semantic css and less to css compiler",
+  "main": "app.js",
+  "scripts": {
+    "build": "webpack --watch",
+    "test": "test"
+  },
+  "keywords": [
+    "JS",
+    "Build",
+    "example"
+  ],
+  "author": "Sridhar Sg",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.17.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-react": "^6.11.1",
+    "css-loader": "^0.25.0",
+    "eslint-config-standard-react": "^4.0.0",
+    "eslint-loader": "^1.5.0",
+    "exports-loader": "^0.6.3",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "http-server": "^0.9.0",
+    "less": "^2.7.1",
+    "less-loader": "^2.2.3",
+    "ncp": "^2.0.0",
+    "postcss-loader": "^1.0.0",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2",
+    "react-router": "^2.8.1",
+    "source-map-loader": "^0.1.5",
+    "standard": "^8.0.0",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.2"
+  }
+}
