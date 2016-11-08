@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "A build for JS with webpack bundle, React.js, semantic css and less to css compiler",
   "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SgSridhar/js-build"
+  },
   "scripts": {
     "build": "webpack --watch",
     "test": "test"

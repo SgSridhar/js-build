@@ -1,3 +1,7 @@
+const React = require('react')
+const ReactDOM = require('react-dom')
+
+const FlexPractice = require('./components/flex-practice/flex-practice')
 require('../less/app.less')
-const a = 2
-console.log('test', a)
+
+ReactDOM.render(<FlexPractice />, document.getElementById('app'))

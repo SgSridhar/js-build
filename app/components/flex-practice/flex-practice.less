@@ -1,0 +1,34 @@
+div.flex-container {
+    .flex-box-full-size;
+    flex-direction: row;
+    div.left-view {
+        flex: 0.5;
+        border: 1px solid black;
+    }
+    div.right-view {
+        .flex-box-full-size;
+        flex-direction: column;
+        border: 1px solid black;
+
+        div.right-top {
+            flex: 0.5;
+            display: flex;
+            flex-direction: row;
+            border: 1px solid rebeccapurple;
+
+            div.left-view {
+                flex: 0.5;
+                border: 1px solid yellow;
+            }
+
+            div.right-view {
+                flex: 1;
+                border: 1px solid blue;
+            }
+        }
+
+        div.right-bottom {
+            .flex-box-full-size
+        }
+    }
+}
